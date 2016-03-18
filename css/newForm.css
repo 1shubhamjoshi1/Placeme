@@ -1,0 +1,195 @@
+
+@font-face {
+    font-family: funckyBold;
+    src: url('../fonts/teen.ttf');
+}
+#sub-form{
+ -webkit-transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+#profile-image{
+    width: 200px;
+    height: 200px;
+    /*border: 1px solid black;*/
+    display: block;
+    margin-top: -280px;
+    -webkit-transform: translateX(-325px);
+   -webkit-transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+
+/* for sliding animation */
+#expand{
+    background-color: white;
+    width: 400px;
+    height: 430px;
+    opacity: 1;
+    margin-top:  -260px;
+    overflow: hidden; /*important*/
+    
+    margin-bottom: -115px;
+}
+
+#upload{
+    margin-left: 215px;
+   z-index: 1;
+    
+    position: absolute;
+    margin-top: -190px;
+    
+}
+
+.file-dialog-box >input
+{
+    display: none;
+}
+
+#heading{
+    z-index: 1;
+    margin-left: 800px;
+    padding-top: 250px;
+    
+    color: #EEE;
+    font-size: 32px;
+    margin-right: 250px;
+    font-family: funckyBold;
+    padding-bottom: 30px;
+}
+
+#sub-heading{
+    color: #EEE;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 800px;
+    margin-right: 250px;
+}
+
+#sign-in-button-final{
+    z-index: 1;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+  
+    border-radius: 2px 2px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    text-decoration: none;
+    color: white;
+    margin-left:1280px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+    position: absolute;
+    margin-top: -630px;
+}
+
+#image-area-of-content-intro{
+    margin-left: 150px;
+    opacity: 0;
+}
+#large-image-area{
+    margin-left: 150px;
+    
+}
+
+
+.funkymove{
+	animation-name: funkymove;
+	-webkit-animation-name: funkymove;
+
+	animation-duration: .3s;	
+	-webkit-animation-duration: .3s;
+    
+    -webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+}
+
+@keyframes funkymove {
+	0% {
+		transform: translateY(-10%);
+        opacity: 0.0;
+	}
+	100% {
+		transform: translateY(-300%);
+        opacity: 1.0;
+	}	
+			
+
+
+}
+
+.subFunk{
+	animation-name: subFunk;
+	-webkit-animation-name: subFunk;
+
+	animation-duration: .4s;	
+	-webkit-animation-duration: .4s;
+   
+    -webkit-animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-out;
+}
+
+@keyframes subFunk{
+    0%{
+        transform: translateY(60%);
+        opacity: 0.0;
+        
+    }
+    100%{
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+}
+
+
+#sub-sign-up{
+        
+    z-index: 1;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    transition: all .2s, ease-in-out .2s;
+    border-radius: 2px 2px;
+    background-color:white; 
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    opacity: 0;
+    margin-left:1200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+    position: absolute;
+    margin-top: -660px;
+}
+
+#sub-sign-up > div{
+    
+}
+
+
+#place-me-header{
+    background-color: #DFF2D8;
+    width: 500px;
+    height: 80px;
+    margin-top: -100px;
+    z-index: 1;
+    border-radius: 2px;
+    margin-left: -10px;
+    
+}
+
+#large-place-me-header{
+    background-color: #DFF2D8;
+    width: 500px;
+    margin-top: 200px;
+    height: 400px;
+    border-radius: 2px;
+  
+    margin-left: -10px;
+}
+
+
+
+

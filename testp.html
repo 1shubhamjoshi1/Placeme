@@ -1,0 +1,90 @@
+<?php
+   session_start();
+
+    
+?>
+
+ 
+<!Doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../css/after-sign-up/probablyone.css">
+      <link rel="stylesheet" href="../css/font-awesome.css"/>
+      
+      <link rel="stylesheet" href="../../css/animations.css"/>
+  </head>
+  <body>  
+
+  <?php include_once 'head.php'?>
+    <div id="container">
+      <div class="frame">
+        <img class="profile" src="../../assets/after-sing-up/Uploads/user_shubham.jpg">
+  
+        <div id="info">
+          
+         
+          </div>
+      </div>
+      
+      <div class="news-feed">
+        <ul>
+          <li>
+            <img src="../../assets/after-sing-up/streams/c++.png" id="a">
+            <div id="extend-info" >
+              <img src="../../assets/after-sing-up/streams/c++.jpg">
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/after-sing-up/Uploads/919716050780.jpg" id="b">
+            <div id="extend-info"></div>
+          </li>
+          <li>
+            <img src="../../assets/after-sing-up/Uploads/919868141614.jpg" id="c">
+            <div id="extend-info"></div>
+          </li>
+          <li>
+            <img src="../../assets/after-sing-up/Uploads/919899798362-1438020046.jpg" id="d">
+            <div id="extend-info"></div>
+          </li>
+          <li>
+            <img src="../../assets/after-sing-up/Uploads/919873997579.jpg" id="e">
+            <div id="extend-info"></div>
+          </li>
+         
+        </ul>
+      </div>
+    
+    </div>
+        
+    
+    <div id="graph-layout" class="expand-animation ">
+         <div id="head">Quiz Ratings</div>
+          <div id="further">Hover over the section to get detailed view</div>
+          <div id="curtain"></div>
+    </div>
+ 
+      <div id ="graph-layout-t" class="fade">
+       
+      </div>
+    <div id="canvas-holder" style="width:25%">
+			<canvas id="chart-area" class="disapear" width="100" height="100"/>
+        
+		</div>
+     
+    <div id="hovered" class="appear">
+    
+    </div>
+    
+    <div id="top-players">
+     <div id="side-head">Top placemers</div> 
+      <img src="../../assets/after-sing-up/Uploads/919868141614.jpg" class="i">
+  
+      <img src="../../assets/after-sing-up/Uploads/919868141614.jpg" class="i">
+    </div>
+     <script type="text/javascript" src="../../js/jquery.js"></script>
+      <script type="text/javascript" src="../../js/after-sign-up/graph.js"></script>
+     <script type="text/javascript" src="../../js/after-sign-up/probablyone.js"></script>
+     <script type="text/javascript" src="../../js/libs/Chart.js"></script>
+       <script type="text/javascript" src="../../js/after-sign-up/chart-work.js"></script>
+  </body>
+</html>

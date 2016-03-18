@@ -1,0 +1,163 @@
+body { 
+    background:#001427; 
+}
+
+#icons {
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left: -650px;
+    margin-top: -420px;
+    z-index: 1;
+    align-content: center;
+    position: absolute;
+}
+
+#true-div{
+    z-index: 1;
+ 
+    opacity: 1;/*to change*/
+    height: 530px;
+    font-size: 35px;
+    color: #EEE;
+    
+        
+}
+
+.actual-page{
+  position: fixed;
+}
+
+#circular-image{
+    z-index: 2;
+    background-color: #EEE;
+    border-radius: 100px;
+    width: 100px;
+    margin-left: 30px;
+    height: 100px;
+    margin-top: 50px;
+    
+    margin-bottom: 450px;
+}
+
+#usersname{
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    z-index: 1;
+    margin-top: -540px;
+}
+
+#other-name{
+     margin-left: 155px;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+#profile{
+    width: 85px;
+    z-index: 2;
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 7px;
+    height: 85px;
+    overflow: hidden;
+    border-radius: 85px;
+   
+}
+
+#profile-image{
+    margin-top: -20px;
+}
+
+#footer{
+    z-index: 1;
+    position: absolute;
+   margin-top: 523px;
+   margin-left: 300px;
+    width:700px;
+    height: 30px;
+    background: #EEE;
+    
+}
+
+.flip{
+    width: 240px;
+    height: 200px;
+    margin: 0px;
+    float: left;
+    margin-top: 200px;
+
+}
+
+.flip .front{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    background: #EEE;
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    -webkit-transition: transform .5s linear 0s;
+}
+
+.flip .back{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: #803;
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    -webkit-transition: transform .5s linear 0s;
+}
+
+.flip:hover .front{
+    transform: perspective(600px) rotateY(-180deg)
+}
+
+
+.flip:hover .back{
+    transform: perspective(600px) rotateY(0deg)
+}
+#madjust{
+    margin-left: 300px;
+}
+
+
+#box-1{
+    margin-left: -290px;
+    margin-top: -50px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#box-2{
+    margin-left: 170px;
+    margin-top: -50px;
+    position: absolute;
+    z-index: 1;
+}
+
+#box-3 {
+     margin-left: 10px;
+     margin-top: 310px;
+    
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+.noflip{
+    width: 310px;
+    height: 240px;
+    border-radius: 7px;
+    background: #EEE;
+}
+
+#news-feed{
+  width: 300px;
+  float: right;
+}

@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #001427;
+    
+}
+
+@font-face{
+    font-family:shubham;
+    src:url("../fonts/teen.ttf");
+}
+
+#top-header{  
+    height: 30px;
+    width: 200px;
+}
+
+img#image{
+    margin-left:10apx ;
+    margin-top: 10px;
+    
+
+}
+
+#bottom-pannel{
+    margin-top: 0px;
+    
+}
+
+img{
+    padding-left: 10px;
+}
+#status-footer{
+    background-color: #267481;
+    height:20px;
+    display: block;
+    text-align: center;
+    color: #EEE;
+    font-size: 18px;
+    margin-left: -120px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+#bottom-pannel{
+   
+    padding-left: 70px;
+}
+#bottom-pannel img{
+    transition: :all .2s ease-in-out;
+}
+
+#bottom-pannel img:hover{
+    transform: scale(1.2);
+}
+
+#display-section{
+    width: 80%;
+    height: 460px;
+    margin-left: 120px;
+    margin-top: 80px;
+    
+    margin-bottom: 5px;
+}
+
+#status{
+    font: serif;
+    color: #EEE;
+    font-size: 24px;
+    text-align: center;
+}
+
+#status{
+    -webkit-transition:opacity 1.0s linear 0s;
+    transition:opacity 1.0s linear 0s;
+  
+}
+
+#button{
+    
+    background-color: #3b7bbf;
+    border: 0;
+    margin-left: 10px;
+    color: #EEE;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    
+}
+
+
+#options{
+   border: black 1px solid;
+    float: left;
+    padding-left: 60px;
+    margin-left: 600px;
+    margin-top: -300px;
+  
+    width: 500px;
+    height: 100px;
+   
+   
+}
+
+#qcode{
+    /*border: black 1px solid;*/
+    width: 500px;
+    height: 360px;
+    float: left;
+}
+
+pre.prettyprint {
+border: none !important;
+
+}
+
+
+#inner-code{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#qimage{
+   /* border: solid black 1px;*/
+    height: 450px;
+    margin-top: -80px;
+    width: 750px;
+    margin-left: -150px;
+    display: inline-block;
+   
+}
+
+#submit-button{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: red;
+  z-index: 2;
+  top: 50%;
+}
+
+#submit-button:hover{
+  cursor: pointer;
+  
+}
+
+#fun{
+  height: 0px;
+}
+
+#char{
+  position: absolute;
+  z-index: 2;
+  margin-top: -1000px;
+  margin-left: 250px;
+}
+
+#top{
+  color: white;
+font-family: shubham;
+
+  font-size: 32px;
+}

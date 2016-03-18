@@ -1,0 +1,350 @@
+*{
+    margin: 0 auto;
+}
+
+#first-title{
+    width: 100%;
+    height: 665px;
+    background-color:#001427;
+}
+
+#intro
+{
+    width: 100%;
+    height: 0px;
+    background-color: #267481;
+    /*overflow: hidden;*/
+}
+
+.blueColorBg
+{
+   /* background-color:#1e2732;*/
+    color: #EEE;
+    margin-top: 150px;
+}
+
+#text-body{
+    /*background-color:#1e2732;*/
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 90px;    
+}
+
+#bird-image{
+   /* background-color: #1e2732;*/
+    position: absolute;
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    left: 43%;
+    top: 5%;
+    
+}
+
+#first-text
+{
+    /*background-color: #1e2732;*/
+    font-family: Arial,'sans-serif';
+    color: #EEE;
+    font-size: 32px;
+    text-align:center;
+  
+    -webkit-animation: fade 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-name: fade;
+    animation-delay: 1s;
+    opacity: 0;
+   
+}
+
+#button-adjustment{
+    background-color: #1e2732;
+}
+
+fieldset{
+    width: 300px;
+    height: 250px;
+    border: 0;
+    
+}
+
+form{
+    padding-top: 350px;
+    margin: auto 0;
+    
+}
+
+input{
+    width: 310px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    border-radius: .5px;
+  
+}
+
+#sign-up-form{
+     -webkit-animation: fade 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-name: fade;
+    animation-delay: 1s;
+    opacity: 0;
+
+}
+
+input[type=submit]{
+    background-color: #3b7bbf;
+    border: 0;
+    margin-top: 0px;
+    color: #EEE;
+    margin-top: 30px;
+    
+}
+
+input[type=submit]:hover{
+    background-color:#4b7bae;
+    cursor: pointer;
+}
+
+#sign-up-button{
+      background-color: #3b7bbf;
+    border: 0;
+    margin-top: 0px;
+    color: #EEE;
+}
+
+
+
+#sign-up-button:hover{
+      background-color:#4b7bae;
+    cursor: pointer;
+}
+
+@keyframes fade {
+  from {
+    
+   
+      opacity: 0;
+  }
+
+  to { 
+      opacity: 1;
+  }
+}
+
+#forgot-your-password{
+    color: #EEE;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input:focus{
+    outline: 0;
+}
+
+#base-area-content{
+    color: #EEE;
+    padding-left: 5px;
+    padding-bottom: 4px;
+}
+
+#base-area-content a{
+    text-decoration: none;
+    color: #EEE;
+    padding-left: 5px;
+}
+
+#know-more{
+  
+    height: 24px;
+    background-color: #267481;
+}
+
+#footer{
+       
+     -webkit-animation: fade 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-name: fade;
+    animation-delay: 1s;
+    opacity: 0;
+    margin-top:0px;
+    
+}
+
+#know-more{
+    text-align: center;
+    color: #EEE;
+    font-size: 18px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#incorrect-email{
+    
+    height: 0px;
+    width: 100%;
+     background-color:transparent;
+    color: #EEE;
+  
+  opacity:0.1;
+  filter:alpha(opacity=60);
+   
+}
+
+#incorrect-email
+{
+  
+    line-height: 8px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#incorrect-email-next-text{
+    text-align: center;
+}
+
+#hiddenText{
+}
+
+#sign-up{
+    background-color: #267481;
+}
+
+
+
+.expand-animation{
+     animation-name: expanding;
+	-webkit-animation-name: expanding;	
+
+	animation-duration: .3s;	
+	-webkit-animation-duration: .3s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+    animation-fill-mode: forwards;
+	visibility: visible ;	
+}
+
+@-webkit-keyframes expanding {
+	0% {
+		-webkit-transform: scale(0);
+        opacity: 0;
+	}
+	
+    100% {
+		-webkit-transform: scale(1);
+        opacity: 1;
+	}
+}
+
+#cancel-image{
+    width: 25px;
+    height: 25px;
+    margin-left: 850px;
+    margin-top: -39px;
+    cursor: pointer;
+    
+    
+}
+
+/*
+#more-info{
+    width: 600px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#gray-box{
+    background-color:#E0E0E2;
+}
+*/
+#newfieldset{
+ 
+    height: 150px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 48px;
+    
+}
+
+.sop{
+    margin-top: 30px;
+}
+
+#placeme_small_logo{
+    width: 210px;
+    height: 60px;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+#login{
+    
+    width: 70px;
+    border-radius: 3px;
+    height: 30px;
+    margin-top: -578px;
+    margin-left: 1270px;
+    border: solid #EEE 2px;
+    display: block;
+    padding-top: 5px;
+    
+}
+
+
+#login-button-text{
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: #EEE;
+    padding-left: 14px;
+    padding-top: 40px;
+    text-decoration: none;
+    text-align: none;
+}
+
+
+#login-button:hover
+{   text-decoration: none;
+    background-color:#4b7bae;
+    cursor: pointer;
+}
+
+#q{
+    display: block;
+}
+
+#newButton{
+    background-color: #3b7bbf;
+    border: 0;
+    margin-top: 0px;
+    color: #EEE;
+    margin-top: 30px;
+}
+
+#newButton:hover{
+    background-color:#4b7bae;
+    cursor: pointer;
+}
+#username-result{
+height: 0px;
+    width: 100%;
+     background-color:transparent;
+    color: white;
+  
+ 
+  filter:alpha(opacity=60);
+text-align:center;
+
+}
+
+
+ 

@@ -1,0 +1,52 @@
+#optionsNoImage{
+    border: black 1px solid;
+    float: left;
+    padding-left: 60px;
+    margin-top: 70px;
+  
+    width: 800px;
+    height: 200px;
+}
+
+#sec-box{
+   
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+    margin-top: -242px;
+}
+
+#optionDetail{
+    /*border: 1px solid black;*/
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-top: -15px;
+    color: #EEE;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+#OptionA{
+    border: 1px solid black;
+    margin-top: -200px;
+    margin-left: 710px;
+}
+#OptionB{
+  margin-top: -148px;
+     margin-left: 950px;
+}
+#OptionC{
+    margin-left: 710px;
+}
+#OptionD{
+    margin-left: 950px;
+}
+
+#optionDetailN{
+    /*border: 1px solid black;*/
+    color: white;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+}

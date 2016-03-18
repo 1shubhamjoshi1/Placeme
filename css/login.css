@@ -1,0 +1,37 @@
+#footer{
+    margin-top: 0px;
+}
+
+#login-button{
+      background-color: #3b7bbf;
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #EEE;
+}
+
+#login-password{
+
+    margin-bottom: 20px;
+}
+
+#login-username{
+    margin-top: 20px;
+}
+
+#login-button:hover{
+      background-color:#4b7bae;
+    cursor: pointer;
+}
+
+#login-result{
+height: 0px;
+    width: 100%;
+     background-color:transparent;
+    color: white;
+  
+ 
+  filter:alpha(opacity=60);
+text-align:center;
+
+}

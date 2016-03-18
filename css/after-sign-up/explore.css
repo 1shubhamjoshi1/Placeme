@@ -1,0 +1,43 @@
+#f{
+  position: absolute;
+  z-index: 1;
+  width: 400px;
+  height: 600px;
+  background: #267481;
+  margin-top: 50px;
+}
+
+
+.f{
+	animation-name: f;
+	-webkit-animation-name: f;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;			
+}
+
+@keyframes f {
+	0% {
+		transform: translateX(-50%);
+	}
+
+				
+	100% {
+		transform: translateX(0%);
+	}	
+}
+
+@-webkit-keyframes f {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
